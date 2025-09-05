@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App — OOP (ES6)</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main class="container">
+    <header class="app-header">
+      <h1>Quiz App</h1>
+      <p class="tagline">Answer all questions, then submit to see your score.</p>
+    </header>
+
+    <section id="quiz-root" class="quiz-root" aria-live="polite"></section>
+
+    <footer class="controls">
+      <div class="left">
+        <button id="resetBtn" class="btn btn-ghost" type="button" aria-label="Reset all answers">Reset</button>
+      </div>
+      <div class="right">
+        <button id="submitBtn" class="btn btn-primary" type="button" aria-label="Submit the quiz">Submit</button>
+      </div>
+    </footer>
+
+    <section id="result" class="result" hidden></section>
+  </main>
+
+<script type="module" src="Js/main.js"></script></body>
+</html>
