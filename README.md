@@ -23,18 +23,23 @@ A single-page Quiz App built with **Object-Oriented Programming** in vanilla Jav
 See the **Architecture Diagram** in `architecture.png`.
 
 ## 🏁 Run Locally
-Open `index.html` in any modern browser. No build step required.
+Open `index.html` --> Use Live server
 
 ## 📂 Project Structure
 ```
-.
+quizApp
 ├─ index.html
 ├─ styles.css
-├─ app.js
 ├─ README.md
 ├─ TECHNICAL_REQUIREMENTS.md
-└─ architecture.png
+├─ Arch.png
+└─ js/
+   ├─ main.js              
+   ├─ Quiz.js               
+   ├─ Question.js           
+   ├─ MCQQuestion.js       
+   ├─ TrueFalseQuestion.js  
+   └─ StorageService.js    
+
 ```
 
-## 📜 License
-MIT
